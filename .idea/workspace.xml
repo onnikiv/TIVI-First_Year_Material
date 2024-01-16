@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="commit // fix" />
+    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +84,7 @@
       <updated>1705421001162</updated>
       <workItem from="1705421006141" duration="2000" />
       <workItem from="1705422390232" duration="62000" />
-      <workItem from="1705422453313" duration="8449000" />
+      <workItem from="1705422453313" duration="8474000" />
     </task>
     <task id="LOCAL−00001" summary="commit">
       <option name="closed" value="true" />
@@ -177,7 +177,14 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1705430725754</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="commit">
+      <option name="closed" value="true" />
+      <created>1705431186152</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1705431186152</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,9 +193,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added tehtävä 1 &amp; 2 to moduuli2" />
     <MESSAGE value="commit // added tehtävä3.py" />
-    <MESSAGE value="commit" />
     <MESSAGE value="commit // fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit // fix" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä1.coverage" NAME="tehtävä1 Coverage Results" MODIFIED="1705423729763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
