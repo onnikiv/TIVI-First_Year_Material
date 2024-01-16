@@ -1,10 +1,11 @@
-luku1 = input("Anna luku\n")
-luku2 = input("Anna toinen luku\n")
-luku3 = input("Anna vielä kolmas luku\n")
+luku1 = int(input("Anna luku\n"))
+luku2 = int(input("Anna toinen luku\n"))
+luku3 = int(input("Anna vielä kolmas luku\n"))
 
-summa = int(luku1) + int(luku2) + int(luku3)
-print("Summa on: " +str(summa))
-tulo = int(luku1) * int(luku2) * int(luku3)
-print("Tulo on: " +str(tulo ))
-keskiarvo = int(summa) / 3
-print("Keskiarvo on: " +str(keskiarvo))
+summa = str(luku1 + luku2 + luku3)
+tulo = str(luku1 * luku2 * luku3)
+keskiarvo = str(int(summa) / 3)
+
+print("Summa on: " + summa)
+print("Tulo on: " + tulo)
+print("Keskiarvo on: " + keskiarvo)
