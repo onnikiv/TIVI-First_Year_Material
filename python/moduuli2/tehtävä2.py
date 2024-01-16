@@ -1,6 +1,5 @@
 säde_input = input("Mikä on ympyrän säteen pituus?: \n")
 säde_int = int(säde_input)
-ala_int = säde_int * säde_int * 3.14
-
+ala_int = säde_int * säde_int * 3.141592653589793
 print("Pinta-ala on ympyrällä tällöin " + str(ala_int))
 
