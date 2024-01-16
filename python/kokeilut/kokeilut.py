@@ -29,8 +29,6 @@ age_input = input("Kuinka vanha olet?")
 # print(type(ageInput)) #"13"
 age_int = int(age_input) # esim "13" -> 13
 new_age = age_int + 1
-
 print("Vuoden päästä olet " + str(new_age) + " vuotta.")
 # tai "f-stringillä (huom aaltosulkeet ja f-alkuun"
 print(f"Vuoden päästä olet {new_age} vuotta.")
-print("testi")
