@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="commit" />
+    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/python/moduuli2/tehtävä5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/moduuli2/tehtävä2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/moduuli2/tehtävä2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,27 +50,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.kokeilut.executor": "Run",
-    "Python.tehtävä 4.executor": "Run",
-    "Python.tehtävä1.executor": "Run",
-    "Python.tehtävä2.executor": "Run",
-    "Python.tehtävä3.executor": "Run",
-    "Python.testi.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/onnik/PycharmProjects/tivi-prog1-2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.kokeilut.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä 4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testi.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/onnik/PycharmProjects/tivi-prog1-2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,6 +90,10 @@
       <workItem from="1705421006141" duration="2000" />
       <workItem from="1705422390232" duration="62000" />
       <workItem from="1705422453313" duration="8474000" />
+      <workItem from="1705432500923" duration="297000" />
+      <workItem from="1705475837713" duration="1112000" />
+      <workItem from="1705511092854" duration="2104000" />
+      <workItem from="1705514527132" duration="1225000" />
     </task>
     <task id="LOCAL−00001" summary="commit">
       <option name="closed" value="true" />
@@ -184,7 +193,21 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1705431186152</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="commit">
+      <option name="closed" value="true" />
+      <created>1705432635370</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1705432635370</updated>
+    </task>
+    <task id="LOCAL−00016" summary="commit">
+      <option name="closed" value="true" />
+      <created>1705432790155</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1705432790155</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,10 +222,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä1.coverage" NAME="tehtävä1 Coverage Results" MODIFIED="1705423729763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä_4.coverage" NAME="tehtävä 4 Coverage Results" MODIFIED="1705430256851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä_4.coverage" NAME="tehtävä 4 Coverage Results" MODIFIED="1705476952618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$testi.coverage" NAME="testi Coverage Results" MODIFIED="1705422495477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä2.coverage" NAME="tehtävä2 Coverage Results" MODIFIED="1705430406516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$kokeilut.coverage" NAME="kokeilut Coverage Results" MODIFIED="1705422982747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä2.coverage" NAME="tehtävä2 Coverage Results" MODIFIED="1705476900028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$kokeilut.coverage" NAME="kokeilut Coverage Results" MODIFIED="1705432738570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä5.coverage" NAME="tehtävä5 Coverage Results" MODIFIED="1705515718003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä3.coverage" NAME="tehtävä3 Coverage Results" MODIFIED="1705430338702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
   </component>
 </project>
