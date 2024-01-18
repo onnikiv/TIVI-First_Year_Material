@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="commit" />
+    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/moduuli2/tehtävä5.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/moduuli2/tehtävä5.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +95,7 @@
       <workItem from="1705511092854" duration="2104000" />
       <workItem from="1705514527132" duration="1225000" />
       <workItem from="1705570244141" duration="27000" />
+      <workItem from="1705573570632" duration="2921000" />
     </task>
     <task id="LOCAL−00001" summary="commit">
       <option name="closed" value="true" />
@@ -229,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705570255976</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="commit">
+      <option name="closed" value="true" />
+      <created>1705573744437</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705573744437</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,13 +256,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä1.coverage" NAME="tehtävä1 Coverage Results" MODIFIED="1705423729763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä6.coverage" NAME="tehtävä6 Coverage Results" MODIFIED="1705564438916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä_4.coverage" NAME="tehtävä 4 Coverage Results" MODIFIED="1705476952618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä1.coverage" NAME="tehtävä1 Coverage Results" MODIFIED="1705573601849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä6.coverage" NAME="tehtävä6 Coverage Results" MODIFIED="1705573732750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä_4.coverage" NAME="tehtävä 4 Coverage Results" MODIFIED="1705573667935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$testi.coverage" NAME="testi Coverage Results" MODIFIED="1705422495477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä2.coverage" NAME="tehtävä2 Coverage Results" MODIFIED="1705476900028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$kokeilut.coverage" NAME="kokeilut Coverage Results" MODIFIED="1705432738570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä5.coverage" NAME="tehtävä5 Coverage Results" MODIFIED="1705561002640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä3.coverage" NAME="tehtävä3 Coverage Results" MODIFIED="1705430338702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä2.coverage" NAME="tehtävä2 Coverage Results" MODIFIED="1705573613596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$kokeilut.coverage" NAME="kokeilut Coverage Results" MODIFIED="1705576514704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä5.coverage" NAME="tehtävä5 Coverage Results" MODIFIED="1705577573757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä3.coverage" NAME="tehtävä3 Coverage Results" MODIFIED="1705573651469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
   </component>
 </project>
