@@ -14,5 +14,6 @@ elif sukupuoli.lower() == "nainen":
     elif hemoglobiini > 175:
         print("Naiselle hemoglobiiniarvo on korkea.")
     else:
-         print("Naiselle hemoglobiiniarvo on alhainen.")
-else: print("Väärä sukupuoli.")
+        print("Naiselle hemoglobiiniarvo on alhainen.")
+else:
+    print("Väärä sukupuoli.")
