@@ -1,5 +1,18 @@
-harvo = float(input("syötä hemogloniiniarvo: \n"))
-if 117 <= harvo <= 175:
-    print("Naiselle hemogloniiniarvot ovat normaalit.")
-else 117 < harvo :
-    print("Naiselle hemogloniiniarvot ovat alhaiset")
+sukupuoli = str(input("Anna sukupuoli: \n"))
+hemoglobiini = float(input("Anna hemoglobiini: \n"))
+
+if sukupuoli.lower() == "mies":
+    if 134 <= hemoglobiini <= 195:
+        print("Miehelle hemoglobiini arvo on normaali.")
+    elif hemoglobiini > 195:
+        print("Miehen hemoglobiiniarvo on korkea.")
+    else:
+        print("Miehen hemoglobiiniarvo on alhainen.")
+elif sukupuoli.lower() == "nainen":
+    if 117 <= hemoglobiini <= 175:
+        print("Naiselle hemoglobiini arvo on normaali.")
+    elif hemoglobiini > 175:
+        print("Naiselle hemoglobiiniarvo on korkea.")
+    else:
+         print("Naiselle hemoglobiiniarvo on alhainen.")
+else: print("Väärä sukupuoli.")
