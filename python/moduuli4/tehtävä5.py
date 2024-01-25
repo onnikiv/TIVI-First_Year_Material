@@ -7,7 +7,8 @@ while True:
             print("Tervetuloa")
             break
     else:
-        print("5 yritystä jäljellä.")
+        print("jou")
+
 
 
 
