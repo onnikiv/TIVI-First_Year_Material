@@ -1,8 +1,8 @@
 yritysten_määrä = 0
 
 while yritysten_määrä < 5:
-    tunnus = input("Syötä käyttäjätunnus: \n")
-    salasana = input("Syötä salasana: \n")
+    tunnus = input("Syötä käyttäjätunnus: \n").lower()
+    salasana = input("Syötä salasana: \n").lower()
 
     if tunnus == "python" and salasana == "rules":
         print("Tervetuloa!")
