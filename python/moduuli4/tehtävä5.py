@@ -1,16 +1,16 @@
+yritysten_määrä = 0
 
-while True:
-    user_id = str(input("Anna tunnus: \n")).upper()
-    if user_id == "PYTHON":
-        user_password = str(input("Anna salasana: \n")).upper()
-        if user_password == "RULES":
-            print("Tervetuloa")
-            break
+while yritysten_määrä < 5:
+    tunnus = input("Syötä käyttäjätunnus: \n")
+    salasana = input("Syötä salasana: \n")
+
+    if tunnus == "python" and salasana == "rules":
+        print("Tervetuloa!")
+        break
+
     else:
-        print("jou")
+        print(f"Väärä käyttäjätunnus tai salasana. {4 - yritysten_määrä} yritystä jäljellä")
+        yritysten_määrä += 1
 
-
-
-
-#user_password = str(input("Anna salasana: \n"))
-#user_password = "rules".upper()
+    if yritysten_määrä == 5:
+        print("Pääsy evätty")
