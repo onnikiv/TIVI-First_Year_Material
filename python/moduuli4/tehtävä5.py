@@ -1,6 +1,6 @@
-yritysten_määrä = 0
+yritysten_maara = 0
 
-while yritysten_määrä < 5:
+while yritysten_maara < 5:
     tunnus = input("Syötä käyttäjätunnus: \n").lower()
     salasana = input("Syötä salasana: \n").lower()
 
@@ -9,8 +9,8 @@ while yritysten_määrä < 5:
         break
 
     else:
-        print(f"Väärä käyttäjätunnus tai salasana. {4 - yritysten_määrä} yritystä jäljellä")
-        yritysten_määrä += 1
+        print(f"Väärä käyttäjätunnus tai salasana. {5 - yritysten_maara} yritystä jäljellä")
+        yritysten_maara += 1
 
-    if yritysten_määrä == 5:
+    if yritysten_maara == 5:
         print("Pääsy evätty")
