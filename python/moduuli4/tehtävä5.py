@@ -9,7 +9,7 @@ while yritysten_maara < 5:
         break
 
     else:
-        print(f"Väärä käyttäjätunnus tai salasana. {5 - yritysten_maara} yritystä jäljellä")
+        print(f"Väärä käyttäjätunnus tai salasana. {4 - yritysten_maara} yritystä jäljellä")
         yritysten_maara += 1
 
     if yritysten_maara == 5:
