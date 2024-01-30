@@ -8,10 +8,10 @@ kutsut funktiota ja tulostat sen jälkeen sekä alkuperäisen että karsitun lis
 def get_even_numbers(numbers):
     # Luodaan uusi tyhjä lista, millä ei ole mitään tekemistä alkup. kanssa.
     even_numbers = []
-    for i in range(len(numbers)-1):
-        if numbers[i] % 2 == 0:
+    for num in range(len(numbers)-1):
+        if num % 2 == 0:
             # Lisätään arvo uuteen listaan, jos se on parillinen.
-            even_numbers.append(numbers[i])
+            even_numbers.append(num)
     return even_numbers
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 1, 3, 5]
