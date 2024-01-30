@@ -12,4 +12,3 @@ else:
         tuloksen_summa += silmaluku
 
 print(f"Heitettyjen arpakuutioiden summa: {tuloksen_summa}")
-
