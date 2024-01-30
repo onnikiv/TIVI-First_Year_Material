@@ -77,8 +77,20 @@ def calc_v2(num1, num2, calc_type = "add"):
     elif calc_type == "multiply":
         return num1 * num2
 
-
+# käytetään laskutavalle oletusarvoa
 result = calc_v2(2,4)
 print(result)
+# Syötetään parametrit vapaa järjestyksellä nimeämällä ne
 result = calc_v2(num2=2, num1=4, calc_type="multiply")
 print(result)
+
+# Satunnainen määrä parametreja
+
+
+def list_numbers(*parameters):
+    # parameters sisältää kaikki annetut parametrien arvot yhtenä monikkkona
+    # ("kiinteä" lista)
+    return parameters
+
+
+print(list_numbers(2, 5, 7, "kutonen"))
