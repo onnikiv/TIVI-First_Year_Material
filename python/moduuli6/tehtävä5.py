@@ -6,9 +6,11 @@ kutsut funktiota ja tulostat sen jälkeen sekä alkuperäisen että karsitun lis
 """
 
 def get_even_numbers(numbers):
+    # Luodaan uusi tyhjä lista, millä ei ole mitään tekemistä alkup. kanssa.
     even_numbers = []
     for i in range(len(numbers)-1):
         if numbers[i] % 2 == 0:
+            # Lisätään arvo uuteen listaan, jos se on parillinen.
             even_numbers.append(numbers[i])
     return even_numbers
 
