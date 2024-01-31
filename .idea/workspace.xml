@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="tehtävä2.py" />
+    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,14 +135,7 @@
       <workItem from="1706640600444" duration="511000" />
       <workItem from="1706686408330" duration="248000" />
       <workItem from="1706686755910" duration="699000" />
-      <workItem from="1706687900021" duration="1270000" />
-    </task>
-    <task id="LOCAL−00008" summary="commit // added tehtävä3.py">
-      <option name="closed" value="true" />
-      <created>1705426652995</created>
-      <option name="number" value="LOCAL−00008" />
-      <option name="presentableId" value="LOCAL−00008" />
-      <updated>1705426652995</updated>
+      <workItem from="1706687900021" duration="1917000" />
     </task>
     <task id="LOCAL−00009" summary="commit">
       <option name="closed" value="true" />
@@ -497,7 +492,14 @@
       <option name="presentableId" value="LOCAL−00056" />
       <updated>1706688571501</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL−00057" summary="workspace.xml">
+      <option name="closed" value="true" />
+      <created>1706689301402</created>
+      <option name="number" value="LOCAL−00057" />
+      <option name="presentableId" value="LOCAL−00057" />
+      <updated>1706689301402</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +540,8 @@
     <MESSAGE value="added tehtävä2.py" />
     <MESSAGE value="commit" />
     <MESSAGE value="tehtävä2.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="tehtävä2.py" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tuuma___cm.coverage" NAME="tuuma - cm Coverage Results" MODIFIED="1705671657209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
