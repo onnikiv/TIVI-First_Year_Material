@@ -7,8 +7,9 @@ while True:
     if luku_syote == "" or luku_syote == " ":
         break
     else:
-        luku = luku_syote
+        luku = int(luku_syote)
         luvut.append(luku)
-        suurimmat_luvut = sorted(luvut, reverse=True)[:5]
-print(f"Suurimmat luvut: {suurimmat_luvut}.")
+        luvut.sort(reverse=True)
+
+print(f"Suurimmat luvut: {luvut[:5]}.")
 
