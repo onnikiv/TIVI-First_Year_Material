@@ -1,4 +1,5 @@
 import random
+tuloksen_summa = 0
 
 arpakuutioiden_lukum = int(input("Anna arpakuutioiden lukumäärä: \n"))
 
