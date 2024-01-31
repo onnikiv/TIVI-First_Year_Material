@@ -11,3 +11,4 @@ while True:
         luvut.append(luku)
         suurimmat_luvut = sorted(luvut, reverse=True)[:5]
 print(f"Suurimmat luvut: {suurimmat_luvut}.")
+
