@@ -11,6 +11,9 @@ if luku_string.isdigit():   #Tarkistetaan syöttö, jos luku niin tehdään merk
             if luku % i == 0:
                 alkuluku = False
                 break
-
-    if alkuluku: # Jos alkuluku, niin printataan.
+    if alkuluku:
         print(f"{luku} on alkuluku.")
+    else:
+        print(f"{luku} ei ole alkuluku.")
+else:
+    print("Virheellinen syöte. Syötä kokonaisluku.")
