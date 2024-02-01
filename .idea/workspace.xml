@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="workspace.xml">
-      <change afterPath="$PROJECT_DIR$/python/kokeilut/vk3torstai.py" afterDir="false" />
+    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/moduuli5/tehtävä3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/moduuli5/tehtävä3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/kokeilut/vk3torstai.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/kokeilut/vk3torstai.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,44 +49,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.katkoviivatesti.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kokeilut.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random.executor&quot;: &quot;Run&quot;,
-    &quot;Python.randomshiz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tuuma - cm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.viikko2 BOOLEAN.executor&quot;: &quot;Run&quot;,
-    &quot;Python.viikko2 kontrollirakenteet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.viikko2 tuntishiz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.viikko2while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vk3 Funktiot.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vk3 for in range.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vk4 for in range.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vk4 listarakenne for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vk4 listarakenne harjoitus.executor&quot;: &quot;Run&quot;,
-    &quot;Python.vk4 listarakenne.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/onnik/PycharmProjects/tivi-prog1-2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.katkoviivatesti.executor": "Run",
+    "Python.kokeilut.executor": "Run",
+    "Python.random.executor": "Run",
+    "Python.randomshiz.executor": "Run",
+    "Python.tehtävä 4.executor": "Run",
+    "Python.tehtävä1.executor": "Run",
+    "Python.tehtävä2.executor": "Run",
+    "Python.tehtävä3.executor": "Run",
+    "Python.tehtävä4.executor": "Run",
+    "Python.tehtävä5.executor": "Run",
+    "Python.tehtävä6.executor": "Run",
+    "Python.testi.executor": "Run",
+    "Python.tuuma - cm.executor": "Run",
+    "Python.viikko2 BOOLEAN.executor": "Run",
+    "Python.viikko2 kontrollirakenteet.executor": "Run",
+    "Python.viikko2 tuntishiz.executor": "Run",
+    "Python.viikko2while.executor": "Run",
+    "Python.vk3 Funktiot.executor": "Run",
+    "Python.vk3 for in range.executor": "Run",
+    "Python.vk3torstai.executor": "Run",
+    "Python.vk4 for in range.executor": "Run",
+    "Python.vk4 listarakenne for.executor": "Run",
+    "Python.vk4 listarakenne harjoitus.executor": "Run",
+    "Python.vk4 listarakenne.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/onnik/PycharmProjects/tivi-prog1-2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -138,13 +138,6 @@
       <workItem from="1706686408330" duration="248000" />
       <workItem from="1706686755910" duration="699000" />
       <workItem from="1706687900021" duration="1917000" />
-    </task>
-    <task id="LOCAL−00009" summary="commit">
-      <option name="closed" value="true" />
-      <created>1705427370879</created>
-      <option name="number" value="LOCAL−00009" />
-      <option name="presentableId" value="LOCAL−00009" />
-      <updated>1705427370879</updated>
     </task>
     <task id="LOCAL−00010" summary="commit">
       <option name="closed" value="true" />
@@ -501,7 +494,15 @@
       <option name="presentableId" value="LOCAL−00057" />
       <updated>1706689301402</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add">
+      <option name="closed" value="true" />
+      <created>1706788978317</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1706788978319</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,31 +544,33 @@
     <MESSAGE value="commit" />
     <MESSAGE value="tehtävä2.py" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä1.coverage" NAME="tehtävä1 Coverage Results" MODIFIED="1706697517185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tuuma___cm.coverage" NAME="tuuma - cm Coverage Results" MODIFIED="1705671657209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$random.coverage" NAME="random Coverage Results" MODIFIED="1705929228486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä4.coverage" NAME="tehtävä4 Coverage Results" MODIFIED="1706525704574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli4" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$vk3_Funktiot.coverage" NAME="vk3 Funktiot Coverage Results" MODIFIED="1706605210259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_for_in_range.coverage" NAME="vk4 for in range Coverage Results" MODIFIED="1706534112396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä5.coverage" NAME="tehtävä5 Coverage Results" MODIFIED="1706525772348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli4" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk3torstai.coverage" NAME="vk3torstai Coverage Results" MODIFIED="1706793724025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$randomshiz.coverage" NAME="randomshiz Coverage Results" MODIFIED="1705929723591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$viikko2_BOOLEAN.coverage" NAME="viikko2 BOOLEAN Coverage Results" MODIFIED="1705927154694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_listarakenne_harjoitus.coverage" NAME="vk4 listarakenne harjoitus Coverage Results" MODIFIED="1706532794508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$viikko2_kontrollirakenteet.coverage" NAME="viikko2 kontrollirakenteet Coverage Results" MODIFIED="1706002198797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä6.coverage" NAME="tehtävä6 Coverage Results" MODIFIED="1706475504255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli4" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_listarakenne.coverage" NAME="vk4 listarakenne Coverage Results" MODIFIED="1706529008964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$katkoviivatesti.coverage" NAME="katkoviivatesti Coverage Results" MODIFIED="1705581677260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä_4.coverage" NAME="tehtävä 4 Coverage Results" MODIFIED="1705573667935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$testi.coverage" NAME="testi Coverage Results" MODIFIED="1705422495477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä2.coverage" NAME="tehtävä2 Coverage Results" MODIFIED="1706781933747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_listarakenne_for.coverage" NAME="vk4 listarakenne for Coverage Results" MODIFIED="1706527400482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$kokeilut.coverage" NAME="kokeilut Coverage Results" MODIFIED="1705576514704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk3_for_in_range.coverage" NAME="vk3 for in range Coverage Results" MODIFIED="1706534957108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$viikko2_tuntishiz.coverage" NAME="viikko2 tuntishiz Coverage Results" MODIFIED="1705927799803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$viikko2while.coverage" NAME="viikko2while Coverage Results" MODIFIED="1705997585458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä3.coverage" NAME="tehtävä3 Coverage Results" MODIFIED="1706441506999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli4" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$random.coverage" NAME="random Coverage Results" MODIFIED="1705929228486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_for_in_range.coverage" NAME="vk4 for in range Coverage Results" MODIFIED="1706534112396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä5.coverage" NAME="tehtävä5 Coverage Results" MODIFIED="1706525772348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli4" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$viikko2_BOOLEAN.coverage" NAME="viikko2 BOOLEAN Coverage Results" MODIFIED="1705927154694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_listarakenne_harjoitus.coverage" NAME="vk4 listarakenne harjoitus Coverage Results" MODIFIED="1706532794508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_listarakenne.coverage" NAME="vk4 listarakenne Coverage Results" MODIFIED="1706529008964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä_4.coverage" NAME="tehtävä 4 Coverage Results" MODIFIED="1705573667935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä2.coverage" NAME="tehtävä2 Coverage Results" MODIFIED="1706781933747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_listarakenne_for.coverage" NAME="vk4 listarakenne for Coverage Results" MODIFIED="1706527400482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$vk3_for_in_range.coverage" NAME="vk3 for in range Coverage Results" MODIFIED="1706534957108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
   </component>
 </project>
