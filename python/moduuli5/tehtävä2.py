@@ -2,7 +2,7 @@ luvut = [] # tyhjä lista
 suurimmat_luvut = 0
 # Kysytään kokoajan lukuja, jos käyttäjä vastaa tyhjän merkkijonon, kysely loppuu.
 while True:
-    luku_syote = input("Anna luku: \n")
+    luku_syote = input("Anna luku: (Lopetus Enterillä)\n")
 
     if luku_syote == "" or luku_syote == " ":
         break
