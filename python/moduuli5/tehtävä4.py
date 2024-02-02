@@ -1,10 +1,9 @@
-kaupungit = []
+kaupungit = []  # Tyhjä lista
 
-kaupunki = input("Anna kaupunki \n")
-while kaupunki != "":
-    kaupungit.append(kaupunki)
-    kaupunki = input("Anna seuraava kaupunki tai lopeta painamalla Enter: ")
+for i in range(5): # Kysytään viiden kaupungin nimet
+    kaupunki = input("Syötä kaupungin nimi: ")
+    kaupungit.append(kaupunki)  # Kaupunki listaan
 
+print("Syöttämäsi kaupungit:") #Tulostetaan kaupungit
 for kaupunki in kaupungit:
-    print(kaupungit)
-
+    print(kaupunki)

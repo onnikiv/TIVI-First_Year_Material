@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="tweak">
+    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="tweaks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python/moduuli5/tehtävä4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/moduuli5/tehtävä4.py" afterDir="false" />
     </list>
@@ -141,21 +141,7 @@
       <workItem from="1706816206062" duration="145000" />
       <workItem from="1706816365844" duration="102000" />
       <workItem from="1706816694789" duration="608000" />
-      <workItem from="1706867465663" duration="975000" />
-    </task>
-    <task id="LOCAL−00012" summary="commit // fix">
-      <option name="closed" value="true" />
-      <created>1705430459451</created>
-      <option name="number" value="LOCAL−00012" />
-      <option name="presentableId" value="LOCAL−00012" />
-      <updated>1705430459451</updated>
-    </task>
-    <task id="LOCAL−00013" summary="commit // fix">
-      <option name="closed" value="true" />
-      <created>1705430725754</created>
-      <option name="number" value="LOCAL−00013" />
-      <option name="presentableId" value="LOCAL−00013" />
-      <updated>1705430725754</updated>
+      <workItem from="1706867465663" duration="1423000" />
     </task>
     <task id="LOCAL−00014" summary="commit">
       <option name="closed" value="true" />
@@ -506,7 +492,21 @@
       <option name="presentableId" value="LOCAL−00060" />
       <updated>1706816435832</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL−00061" summary="tweaks">
+      <option name="closed" value="true" />
+      <created>1706868485452</created>
+      <option name="number" value="LOCAL−00061" />
+      <option name="presentableId" value="LOCAL−00061" />
+      <updated>1706868485452</updated>
+    </task>
+    <task id="LOCAL−00062" summary="tweaks">
+      <option name="closed" value="true" />
+      <created>1706868497681</created>
+      <option name="number" value="LOCAL−00062" />
+      <option name="presentableId" value="LOCAL−00062" />
+      <updated>1706868497681</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +524,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit // tehtävä6.py" />
     <MESSAGE value="commit // added moduuli 3, and tehtävä1 &amp; 2" />
     <MESSAGE value="commit // tehtävä2.py" />
     <MESSAGE value="commit // tehtävä3.py" />
@@ -549,12 +548,13 @@
     <MESSAGE value="add" />
     <MESSAGE value="added tehtävä3.py and tehtävä4.py" />
     <MESSAGE value="tweak" />
-    <option name="LAST_COMMIT_MESSAGE" value="tweak" />
+    <MESSAGE value="tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweaks" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä1.coverage" NAME="tehtävä1 Coverage Results" MODIFIED="1706697517185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tuuma___cm.coverage" NAME="tuuma - cm Coverage Results" MODIFIED="1705671657209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä4.coverage" NAME="tehtävä4 Coverage Results" MODIFIED="1706868243576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä4.coverage" NAME="tehtävä4 Coverage Results" MODIFIED="1706868576239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$vk3_Funktiot.coverage" NAME="vk3 Funktiot Coverage Results" MODIFIED="1706605210259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$vk3torstai.coverage" NAME="vk3torstai Coverage Results" MODIFIED="1706793724025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$randomshiz.coverage" NAME="randomshiz Coverage Results" MODIFIED="1705929723591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
