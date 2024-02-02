@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="tweak">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/moduuli5/tehtävä2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/moduuli5/tehtävä2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/moduuli5/tehtävä4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/moduuli5/tehtävä4.py" afterDir="false" />
-    </list>
+    <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="tweak" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,14 +138,7 @@
       <workItem from="1706816206062" duration="145000" />
       <workItem from="1706816365844" duration="102000" />
       <workItem from="1706816694789" duration="608000" />
-      <workItem from="1706867465663" duration="1732000" />
-    </task>
-    <task id="LOCAL−00015" summary="commit">
-      <option name="closed" value="true" />
-      <created>1705432635370</created>
-      <option name="number" value="LOCAL−00015" />
-      <option name="presentableId" value="LOCAL−00015" />
-      <updated>1705432635370</updated>
+      <workItem from="1706867465663" duration="1863000" />
     </task>
     <task id="LOCAL−00016" summary="commit">
       <option name="closed" value="true" />
@@ -507,7 +496,14 @@
       <option name="presentableId" value="LOCAL−00063" />
       <updated>1706869054681</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL−00064" summary="tweak">
+      <option name="closed" value="true" />
+      <created>1706869209315</created>
+      <option name="number" value="LOCAL−00064" />
+      <option name="presentableId" value="LOCAL−00064" />
+      <updated>1706869209315</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,9 +549,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="tweak" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä1.coverage" NAME="tehtävä1 Coverage Results" MODIFIED="1706697517185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tuuma___cm.coverage" NAME="tuuma - cm Coverage Results" MODIFIED="1705671657209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä4.coverage" NAME="tehtävä4 Coverage Results" MODIFIED="1706869027501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä1.coverage" NAME="tehtävä1 Coverage Results" MODIFIED="1706869069736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä4.coverage" NAME="tehtävä4 Coverage Results" MODIFIED="1706869176123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$vk3_Funktiot.coverage" NAME="vk3 Funktiot Coverage Results" MODIFIED="1706605210259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$vk3torstai.coverage" NAME="vk3torstai Coverage Results" MODIFIED="1706793724025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$randomshiz.coverage" NAME="randomshiz Coverage Results" MODIFIED="1705929723591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
@@ -566,7 +562,7 @@
     <SUITE FILE_PATH="coverage/tivi_prog1_2$kokeilut.coverage" NAME="kokeilut Coverage Results" MODIFIED="1705576514704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$viikko2_tuntishiz.coverage" NAME="viikko2 tuntishiz Coverage Results" MODIFIED="1705927799803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$viikko2while.coverage" NAME="viikko2while Coverage Results" MODIFIED="1705997585458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä3.coverage" NAME="tehtävä3 Coverage Results" MODIFIED="1706816424499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä3.coverage" NAME="tehtävä3 Coverage Results" MODIFIED="1706869163173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$random.coverage" NAME="random Coverage Results" MODIFIED="1705929228486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_for_in_range.coverage" NAME="vk4 for in range Coverage Results" MODIFIED="1706534112396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä5.coverage" NAME="tehtävä5 Coverage Results" MODIFIED="1706525772348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli4" />
@@ -574,7 +570,7 @@
     <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_listarakenne_harjoitus.coverage" NAME="vk4 listarakenne harjoitus Coverage Results" MODIFIED="1706532794508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_listarakenne.coverage" NAME="vk4 listarakenne Coverage Results" MODIFIED="1706529008964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä_4.coverage" NAME="tehtävä 4 Coverage Results" MODIFIED="1705573667935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli2" />
-    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä2.coverage" NAME="tehtävä2 Coverage Results" MODIFIED="1706809019556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
+    <SUITE FILE_PATH="coverage/tivi_prog1_2$tehtävä2.coverage" NAME="tehtävä2 Coverage Results" MODIFIED="1706869155892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/moduuli5" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$vk4_listarakenne_for.coverage" NAME="vk4 listarakenne for Coverage Results" MODIFIED="1706527400482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
     <SUITE FILE_PATH="coverage/tivi_prog1_2$vk3_for_in_range.coverage" NAME="vk3 for in range Coverage Results" MODIFIED="1706534957108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/kokeilut" />
   </component>
