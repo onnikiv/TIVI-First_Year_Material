@@ -7,3 +7,4 @@ while kaupunki != "":
 
 for kaupunki in kaupungit:
     print(kaupungit)
+
