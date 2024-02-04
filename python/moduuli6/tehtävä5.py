@@ -14,6 +14,7 @@ def get_even_numbers(numbers):
             even_numbers.append(num)
     return even_numbers
 
+
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 1, 3, 5]
 even_numbers = get_even_numbers(numbers)
 print(f"Alkuperäiset luvut: {numbers}, parilliset luvut: {even_numbers}")
