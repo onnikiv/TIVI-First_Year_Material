@@ -14,7 +14,7 @@ connection = mysql.connector.connect( #Yhteys tietokantaan.
 def coordinate_search(ICAO):
     cursor = connection.cursor()
     cursor.execute(f"SELECT latitude_deg, longitude_deg FROM airport WHERE ident='{ICAO}'")
-    result = cursor.fetchone()
+    result = cursor.fetchall()
     return result
 
 Icao_1_coordinate = coordinate_search(input("Anna ensimmäinen ICAO-koodi:\n "))
