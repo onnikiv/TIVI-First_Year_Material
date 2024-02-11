@@ -1,6 +1,6 @@
 import mysql.connector
 
-connection = mysql.connector.connect(
+connection = mysql.connector.connect( #Yhteys tietokantaan.
     host="localhost",
     port=3306,
     database="flight_game",
@@ -10,7 +10,7 @@ connection = mysql.connector.connect(
 )
 
 
-def query_landcode(user_input): #Kysely maakoodista, mikä tsekkaa onko siinä tietyssä maassa tiettyjä lentokenttätyyppejä.
+def query_landcode(user_input): #Kysely maakoodista, mikä tsekkaa onko siinä tietyssä maassa mitäkin lentokenttätyyppejä.
     cursor = connection.cursor()
     cursor.execute(f"SELECT type FROM airport WHERE iso_country='{user_input}' ORDER BY type")
     results = cursor.fetchall()
@@ -24,7 +24,7 @@ def query_landcode(user_input): #Kysely maakoodista, mikä tsekkaa onko siinä t
         "balloonport": 0
     }
 
-    for result in results:
+    for result in results: #Käydään läpi tulokset ja lisätään ne airport_types dictionaryyn.
         a_type = result[0]
         
         if a_type in airport_types:
@@ -32,7 +32,7 @@ def query_landcode(user_input): #Kysely maakoodista, mikä tsekkaa onko siinä t
 
     return airport_types
 
-while True:
+while True: #Kysytään käyttäjältä maakoodia ja tarkistetaan onko se olemassa.
     user_input = input("Anna maakoodi:\n ").upper()
     field_types = query_landcode(user_input)
 
@@ -40,4 +40,4 @@ while True:
         print(f"Maassa {user_input} on seuraavat lentokenttätyypit: {field_types}.")
         break
     else:
-        print("Virhe: Maakoodia ei löytynyt. Yritä uudelleen.")
+        print("Virheellinen maakoodi.")
