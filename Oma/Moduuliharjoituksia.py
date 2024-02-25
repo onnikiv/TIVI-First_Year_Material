@@ -1,4 +1,4 @@
-""" OMA TEHTÄVÄ
+""" fahrenheit -> celsius
 def fahrenheit_celsiuksiksi():
     fahrenheit_syote = float(input("Anna lämpötila Fahrenheit-asteina: "))
     celsius = (fahrenheit_syote-32)*5/9
@@ -7,7 +7,7 @@ fahrenheit_celsiuksiksi()
 """
 
 
-""" OSIO 2, TEHTÄVÄ 1 
+""" MODUULI 2, TEHTÄVÄ 1 
 def tervehdys():
     nimi = input("Anna nimesi: \n")
     print(f"Hei {nimi}!")
@@ -15,7 +15,7 @@ tervehdys()
 """
 
 
-""" OSIO 2, TEHTÄVÄ 2
+""" MODUULI 2, TEHTÄVÄ 2
 def circle_rad_to_area():
     rad = float(input("Anna ympyrän säde: \n"))
     area = 3.14 * rad**2
@@ -24,7 +24,7 @@ circle_rad_to_area()
 """
 
 
-""" OSIO 2, TEHTÄVÄ 3
+""" MODUULI 2, TEHTÄVÄ 3
 def suorakulmio():
     kanta = float(input("Anna suorakulmion kanta: \n"))
     korkeus = float(input("Anna suorakulmion korkeus: \n"))
@@ -35,7 +35,7 @@ suorakulmio()
 """
 
 
-""" OSIO 2, TEHTÄVÄ 4
+""" MODUULI 2, TEHTÄVÄ 4
 def kolme_numeroa():
     luku1 = float(input("Anna ensimmäinen luku: \n"))
     luku2 = float(input("Anna toinen luku: \n"))
@@ -47,7 +47,7 @@ kolme_numeroa()
 """
 
 
-""" OSIO 2, TEHTÄVÄ 5
+""" MODUULI 2, TEHTÄVÄ 5
 def massat_kilogrammoiksi():
     leiviskä_syote = float(input("Anna leiviskät"))
     naula_syote = float(input("Anna naulat"))
