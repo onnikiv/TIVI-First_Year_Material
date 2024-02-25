@@ -7,14 +7,14 @@ def tervehdys():
 tervehdys()
 
 
-
 # MODUULI 2, TEHTÄVÄ 2 
+import math
+
 def circle_rad_to_area():
     rad = float(input("Anna ympyrän säde: \n"))
-    area = 3.14 * rad**2
+    area = math.pi * rad**2
     print(f"Ympyrän pinta-ala on {area}")
 circle_rad_to_area()
-
 
 
 # MODUULI 2, TEHTÄVÄ 3 
