@@ -1,13 +1,5 @@
-""" fahrenheit -> celsius
-def fahrenheit_celsiuksiksi():
-    fahrenheit_syote = float(input("Anna lämpötila Fahrenheit-asteina: "))
-    celsius = (fahrenheit_syote-32)*5/9
-    print(f"{celsius:.2f}")
-fahrenheit_celsiuksiksi()
-"""
-
-
-""" MODUULI 2, TEHTÄVÄ 1 """
+# ---------------------------------------------------------------------------------------------------------
+# MODUULI 2, TEHTÄVÄ 1 
 def tervehdys():
     nimi = input("Anna nimesi: \n")
     print(f"Hei {nimi}!")
@@ -15,7 +7,7 @@ tervehdys()
 
 
 
-""" MODUULI 2, TEHTÄVÄ 2 """
+# MODUULI 2, TEHTÄVÄ 2 
 def circle_rad_to_area():
     rad = float(input("Anna ympyrän säde: \n"))
     area = 3.14 * rad**2
@@ -24,7 +16,7 @@ circle_rad_to_area()
 
 
 
-""" MODUULI 2, TEHTÄVÄ 3 """
+# MODUULI 2, TEHTÄVÄ 3 
 def suorakulmio():
     kanta = float(input("Anna suorakulmion kanta: \n"))
     korkeus = float(input("Anna suorakulmion korkeus: \n"))
@@ -34,7 +26,7 @@ def suorakulmio():
 suorakulmio()
 
 
-""" MODUULI 2, TEHTÄVÄ 4 """
+# MODUULI 2, TEHTÄVÄ 4 
 def kolme_numeroa():
     luku1 = float(input("Anna ensimmäinen luku: \n"))
     luku2 = float(input("Anna toinen luku: \n"))
@@ -45,7 +37,7 @@ def kolme_numeroa():
 kolme_numeroa()
 
 
-""" MODUULI 2, TEHTÄVÄ 5 """
+# MODUULI 2, TEHTÄVÄ 5 
 def massat_kilogrammoiksi():
     leiviskä_syote = float(input("Anna leiviskät"))
     naula_syote = float(input("Anna naulat"))
@@ -55,7 +47,7 @@ def massat_kilogrammoiksi():
 massat_kilogrammoiksi()
 
 
-""" MODUULI 2, TEHTÄVÄ 6 """
+# MODUULI 2, TEHTÄVÄ 6 
 
 import random
 
@@ -74,3 +66,12 @@ def random_neliluku():
     print(f"{luku1}{luku2}{luku3}{luku4}")
 random_neliluku()
 
+# ---------------------------------------------------------------------------------------------------------
+# MODUULI 3, TEHTÄVÄ 1 
+
+def kuha_tehtava():
+    kuhan_pituus = float(input("Anna kuhan pituus senttimetreinä: \n"))
+    if kuhan_pituus < 37:
+        print(f"Kuha on alimittainen. Laske kuha takaisin järveen. Kuha on {37-kuhan_pituus} liian lyhyt. ")
+
+kuha_tehtava()
