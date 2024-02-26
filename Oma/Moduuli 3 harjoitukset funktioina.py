@@ -20,6 +20,7 @@ def hyttiluokat():
     elif syotto == "C":
         print("C on ikkunaton hytti autokannen alapuolella.")
     else:
-        print("Virheellinen syöttö.")
+        print("Virheellinen hyttiluokka.")
 
 hyttiluokat()
+
