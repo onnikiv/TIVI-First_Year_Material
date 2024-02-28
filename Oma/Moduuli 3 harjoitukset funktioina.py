@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------------------------------------
 # MODUULI 3, TEHTÄVÄ 1 
-"""
+
 def kuha_tehtava():
     kuhan_pituus = float(input("Anna kuhan pituus senttimetreinä: \n"))
     if kuhan_pituus < 37:
@@ -24,7 +24,7 @@ def hyttiluokat():
         print("Virheellinen hyttiluokka.")
 
 hyttiluokat()
-"""
+
 
 # MODUULI 3, TEHTÄVÄ 3
 
@@ -52,3 +52,16 @@ hemoglobiini_arvo()
 
 
 # MODUULI 3, TEHTÄVÄ 4
+
+def onko_karkausvuosi():
+    # jos vuoden jakojäännös on 0, se on karkausvuosi
+    # ja jos vuoden 100:n jakojäännös on 0, se ei ole karkausvuosi
+    # mutta jos vuoden 100:n jaettavan vuoden 400:n jakojäännös on 0, se on karkausvuosi
+
+    karkausvuosi_input = int(input("Anna vuosiluku: \n"))
+    if karkausvuosi_input % 4 == 0 and (karkausvuosi_input % 100 != 0 or karkausvuosi_input % 400 == 0):
+        print(f"Vuosi {karkausvuosi_input} on karkausvuosi.")
+    else:
+        print(f"Vuosi {karkausvuosi_input} ei ole karkausvuosi.")
+
+onko_karkausvuosi()
