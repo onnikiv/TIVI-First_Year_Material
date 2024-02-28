@@ -23,10 +23,22 @@ def tuuma_cm():
 # MODUULI 4, TEHTÄVÄ 3
 
 def kysytaan_lukuja():
+    isoin_luku = float("-inf")
+    pienin_luku = float("inf")
+    
     while True:
-        luku_input = int(input("Anna luku: \n"))
-        if luku_input == str:
+        luku_input = input("Anna luku: \n")
+        if luku_input == "":
             break
-        print(f"Luku: {luku_input}.")
+        else:
+            luku_input = int(luku_input)
+            if luku_input > isoin_luku:
+                isoin_luku = luku_input
+            if luku_input < pienin_luku:
+                pienin_luku = luku_input
+    print(f"Pienin luku on {pienin_luku} ja isoin luku on {isoin_luku}.")
 
 kysytaan_lukuja()
+
+# MODUULI 4, TEHTÄVÄ 4
+
