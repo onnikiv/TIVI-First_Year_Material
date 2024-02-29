@@ -8,7 +8,7 @@ def kolmella_jaolliset_alle_tuhat():
         print(f"{i}")
         i = i + 3
 
-# kolmella_jaolliset_alle_tuhat()
+kolmella_jaolliset_alle_tuhat()
 
 # MODUULI 4, TEHTÄVÄ 2
 def tuuma_cm():
@@ -20,7 +20,7 @@ def tuuma_cm():
             break
         print(f"Senttimetreinä: {tuuma_input * tuuma}.")
     
-# tuuma_cm()
+tuuma_cm()
 
 # MODUULI 4, TEHTÄVÄ 3
 
@@ -40,7 +40,7 @@ def kysytaan_lukuja():
                 pienin_luku = luku_input
     print(f"Pienin luku on {pienin_luku} ja isoin luku on {isoin_luku}.")
 
-# kysytaan_lukuja()
+kysytaan_lukuja()
 
 # MODUULI 4, TEHTÄVÄ 4
 
@@ -59,7 +59,7 @@ def arpa_kone():
         else:
             print("Väärin, arvaa uudelleen.")
 
-# arpa_kone()
+arpa_kone()
 
 # MODUULI 4, TEHTÄVÄ 5
 
@@ -75,6 +75,27 @@ def salasana_ja_tunnus():
         else:
             print("Väärin, yritä uudelleen.")
 
-# salasana_ja_tunnus()
+salasana_ja_tunnus()
 
 # MODUULI 4, TEHTÄVÄ 6
+
+def piin_likiarvo():
+    import random
+
+    N = n = 0
+
+    while N < 10:
+        #arvotaan yksi piste
+        x = random.uniform(-1,1)
+        y = random.uniform(-1,1)
+        N += 1
+        print(f"Arvottu piste: {x}, {y}")
+        if x * x + y * y < 1:
+            n += 1
+    print(f"Pisteitä yhteensä: {N}, joista ympyrän sisällä {n}.")
+
+    
+    pi = 4 * n / N
+    print(f"Piin likiarvo on: {pi}")
+
+piin_likiarvo()
