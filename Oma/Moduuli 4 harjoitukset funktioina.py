@@ -3,10 +3,10 @@
 # MODUULI 4, TEHTÄVÄ 1
 
 def kolmella_jaolliset_alle_tuhat():
-    i = 0
-    while i < 1000:
-        print(f"{i}")
-        i = i + 3
+    luku = 0
+    while luku < 1000:
+        print(f"{luku}")
+        luku = luku + 3
 
 kolmella_jaolliset_alle_tuhat()
 
