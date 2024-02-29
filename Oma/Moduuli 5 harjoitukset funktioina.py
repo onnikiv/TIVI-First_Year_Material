@@ -25,7 +25,7 @@ def useampi_arpakuutio():
 # useampi_arpakuutio()
 
 
-# MODUULI 5, TEHTÄVÄ 2 luku_input != ""
+# MODUULI 5, TEHTÄVÄ 2
 
 def viisi_suurinta_lukua():
     luvut = [] 
