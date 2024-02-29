@@ -14,7 +14,7 @@ print("E")
 i = 1 # 1, 
 while i%5 > 0:
     print(i)
-    i =+ 3
+    i + 3
 print(i)
 
 for a in range(5,1-1):

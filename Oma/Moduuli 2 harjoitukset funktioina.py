@@ -4,6 +4,7 @@
 def tervehdys():
     nimi = input("Anna nimesi: \n")
     print(f"Hei {nimi}!")
+
 tervehdys()
 
 
@@ -14,6 +15,7 @@ def circle_rad_to_area():
     rad = float(input("Anna ympyrän säde: \n"))
     area = math.pi * rad**2
     print(f"Ympyrän pinta-ala on {area}")
+
 circle_rad_to_area()
 
 
@@ -24,6 +26,7 @@ def suorakulmio():
     pinta_ala = kanta * korkeus
     piiri = 2 * (kanta + korkeus)
     print(f"Suorakulmion pinta-ala on {pinta_ala} ja piiri on {piiri}.")
+
 suorakulmio()
 
 
@@ -35,6 +38,7 @@ def kolme_numeroa():
     summa = luku1 + luku2 + luku3
     keskiarvo = summa / 3
     print(f"Lukujen summa on {summa} ja keskiarvo on {keskiarvo:.2f}.")
+
 kolme_numeroa()
 
 
@@ -45,6 +49,7 @@ def massat_kilogrammoiksi():
     luoti_syote = float(input("Anna luodit"))
     paino = 13.3 * ((leiviskä_syote * 20 + naula_syote) * 32 + luoti_syote) 
     print(f"Massa nykymittojen mukaan {paino/1000:.1f} kilogrammaa ja {paino%1000:.2f} grammaa")
+
 massat_kilogrammoiksi()
 
 
@@ -56,6 +61,7 @@ def random_kolmiluku():
     luku2 = random.randint(0,9)
     luku3 = random.randint(0,9)
     print(f"{luku1}{luku2}{luku3}")
+
 random_kolmiluku()
 
 def random_neliluku():
@@ -64,6 +70,6 @@ def random_neliluku():
     luku3 = random.randint(1,6)
     luku4 = random.randint(1,6)
     print(f"{luku1}{luku2}{luku3}{luku4}")
+
 random_neliluku()
 
-# ---------------------------------------------------------------------------------------------------------

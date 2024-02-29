@@ -38,7 +38,41 @@ def kysytaan_lukuja():
                 pienin_luku = luku_input
     print(f"Pienin luku on {pienin_luku} ja isoin luku on {isoin_luku}.")
 
-kysytaan_lukuja()
+# kysytaan_lukuja()
 
 # MODUULI 4, TEHTÄVÄ 4
 
+def arpa_kone():
+    import random
+    random_luku = random.randint(1, 10) # luodaan random luku
+    while True: # luodaan looppi, joka jatkuu kunnes arvataan oikein
+        arvaus = int(input("Arvaa luku väliltä 1-10: \n"))
+        if arvaus == random_luku:
+            print("Onneksi olkoon, arvasit oikein!")
+            break
+        elif arvaus < random_luku:
+            print("Luku on suurempi.")
+        elif arvaus > random_luku:
+            print("Luku on pienempi.")
+        else:
+            print("Väärin, arvaa uudelleen.")
+
+# arpa_kone()
+
+# MODUULI 4, TEHTÄVÄ 5
+
+def salasana_ja_tunnus():
+    tunnus = "python"
+    salasana = "rules"
+    while True:
+        tunnus_input = input("Anna tunnus: \n").lower()
+        salasana_input = input("Anna salasana: \n").lower()
+        if tunnus_input == tunnus and salasana_input == salasana:
+            print("Tervetuloa!")
+            break
+        else:
+            print("Väärin, yritä uudelleen.")
+
+# salasana_ja_tunnus()
+
+# MODUULI 4, TEHTÄVÄ 6
