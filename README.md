@@ -1,1 +1,1 @@
-Metropolian Tieto- ja Viestintätekniikan Ohjelmointikurssien tehtävien, sekä omien harjoitusten repository.
+Metropolian Tieto- ja Viestintätekniikan linjan ohjelmointikurssien tehtäviä, sekä omia harjoituksia sisältävä repository.
