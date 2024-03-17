@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="340136ef-cfd5-4ec1-8c3d-c1762b509688" name="Changes" comment="tweaks">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_1_2024_17_48__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_1_2024_17_48__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_2_2024_19_36_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_2_2024_19_36__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_2_2024_19_36__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_2_2024_18_32_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_2_2024_18_32__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_2_2024_18_32__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_2_2024_19_36__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_2_2024_18_32__Changes_.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,49 +49,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.coloramatesti.executor": "Run",
-    "Python.katkoviivatesti.executor": "Run",
-    "Python.kokeilut.executor": "Run",
-    "Python.random.executor": "Run",
-    "Python.randomshiz.executor": "Run",
-    "Python.sqlconnettest.executor": "Run",
-    "Python.tehtävä 4.executor": "Run",
-    "Python.tehtävä1.executor": "Run",
-    "Python.tehtävä2.executor": "Run",
-    "Python.tehtävä3.executor": "Run",
-    "Python.tehtävä4.executor": "Run",
-    "Python.tehtävä5.executor": "Run",
-    "Python.tehtävä6.executor": "Run",
-    "Python.testi.executor": "Run",
-    "Python.tuuma - cm.executor": "Run",
-    "Python.viikko2 BOOLEAN.executor": "Run",
-    "Python.viikko2 kontrollirakenteet.executor": "Run",
-    "Python.viikko2 tuntishiz.executor": "Run",
-    "Python.viikko2while.executor": "Run",
-    "Python.vk3 Funktiot.executor": "Run",
-    "Python.vk3 for in range.executor": "Run",
-    "Python.vk3torstai.executor": "Run",
-    "Python.vk4 for in range.executor": "Run",
-    "Python.vk4 listarakenne for.executor": "Run",
-    "Python.vk4 listarakenne harjoitus.executor": "Run",
-    "Python.vk4 listarakenne.executor": "Run",
-    "Python.vk4.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/onnik/PycharmProjects/tivi-prog1-2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.coloramatesti.executor&quot;: &quot;Run&quot;,
+    &quot;Python.katkoviivatesti.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kokeilut.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random.executor&quot;: &quot;Run&quot;,
+    &quot;Python.randomshiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sqlconnettest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä 4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tehtävä6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuuma - cm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.viikko2 BOOLEAN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.viikko2 kontrollirakenteet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.viikko2 tuntishiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.viikko2while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vk3 Funktiot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vk3 for in range.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vk3torstai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vk4 for in range.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vk4 listarakenne for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vk4 listarakenne harjoitus.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vk4 listarakenne.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vk4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/onnik/PycharmProjects/tivi-prog1-2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -161,6 +158,7 @@
       <workItem from="1707559365548" duration="108000" />
       <workItem from="1707666759917" duration="129000" />
       <workItem from="1708948578726" duration="89000" />
+      <workItem from="1710269628039" duration="77000" />
     </task>
     <task id="LOCAL-00022" summary="commit">
       <option name="closed" value="true" />
