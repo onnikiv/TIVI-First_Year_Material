@@ -52,3 +52,25 @@ print(f"{p3.name} ({p3.location}) pisteet: {p3.score}")
 p1.print_info()
 p2.print_info()
 p3.print_info()
+
+# Olionviittauste tallentaminen listaan muuttujien sijassta.
+players = []
+# luodaan uusia pelaajia ja lisätään ne suoraan listaan
+players.append(Player("Aku"))
+players.append(Player("Iines"))
+players.append(Player("Roope"))
+players.append(Player("Hannu"))
+# sijoitetaan viittaukset olemassa oleviin pelaajaoliohin listalle
+players.append(p1)
+players.append(p2)
+players.append(p3)
+
+# listan käsittely luupissa kuin ennenkin
+for p in players: 
+    p.print_info()
+    p.add_score()
+
+print("-------------------")
+
+for p in players: 
+    p.print_info()
