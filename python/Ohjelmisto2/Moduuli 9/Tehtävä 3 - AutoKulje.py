@@ -21,17 +21,14 @@ class Auto:
         else:
             self.alkunopeus += nopeuden_muutos # Muuten lisätään alkunopeuteen nopeuden_muutos
 
+    # Metodi, jolla lasketaan aika ja matka
+    def kulje(self, aika):
+        self.kuljettu_matka += self.alkunopeus * aika # Kuljettu matka on yhtä kuin alkunopeus * kulutettu_aika
 
-auto1 = Auto("ABC-123", 142)
 
-# Kiihdytetään autoa, lopussa päästään huippunopeuteen
-auto1.kiihdytys(30) 
-auto1.kiihdytys(50) 
-auto1.kiihdytys(70)
 
-# Tulostetaan auton ominaisuudet
-auto1.ominaisuudet()
+auto1 = Auto("ABC-123", 142, 60, 2000) # rekkari = ABC-123, huippunopeus = 142, alkunopeus = 60, kuljettu_matka = 2000
 
-# Hätäjarrutus eli hidastetaan autoa 200 km/h, ja tulostetaan auton ominaisuudet
-auto1.kiihdytys(-200)
+auto1.kulje(1.5)
+
 auto1.ominaisuudet()
