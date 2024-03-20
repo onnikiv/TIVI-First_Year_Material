@@ -47,8 +47,9 @@ while kilpailu: # Kun kilpailu päällä, niin jokaiselle autolle annetaan rando
             kilpailu = False
             break
 
-auton_numero = 1
-for auto in Autot:
+auton_numero = 1 # Auton numero alkaa 1
+
+for auto in Autot: # Tulostetaan jokaisen auton tiedot
     print(f"Auto: {auton_numero}")
-    auto.ominaisuudet() # Tulostetaan auton ominaisuudet
+    auto.ominaisuudet() # Kutsutaan ominaisuudet metodia
     auton_numero += 1
