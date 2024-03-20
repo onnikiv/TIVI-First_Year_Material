@@ -2,10 +2,7 @@
 ![alt text](image.png)
 ### Sisältö
 Python (Ohjelmisto 1 & 2): 
-- Moduulit
-- Harjoitukset ja muistiinpanot (Ohjelmisto 1)
-- Harjoitukset ja muistiinpanot (Ohjelmisto 2)
-
+- [Moduulit (1-13)](https://github.com/vituonni/tivi-prog1-2/tree/master/Python)
 HTML + CSS (Ohjelmisto 2):
 - Harjoitukset
 - 
