@@ -2,8 +2,10 @@
 
 ### Sisältö
 Python: 
-- Moodulit
-- Tuntiharjoitukset
-- Omat testit ja harjoitukset
+- Moduulit
+- Harjoitukset ja muistiinpanot (1) < Ohjelmisto 1
+- Harjoitukset ja muistiinpanot (2) < Ohjelmisto 2
 
-![alt text](image.png)
+HTML + CSS (Ohjelmisto 2):
+- Harjoitukset
+- 
