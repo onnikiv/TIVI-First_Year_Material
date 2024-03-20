@@ -6,5 +6,5 @@ Tämä repositorio sisältää ohjelmointikursseilla tehtyjä tehtäviä.
 Moduulitehtävät Python_ohjelmistoteema repositoriosta.
 - [Moduulit](https://github.com/vituonni/tivi-prog1-2/tree/master/Python)  (1-13)
 
-HTML + CSS (Ohjelmisto 2):
+### HTML + CSS (Ohjelmisto 2):
 - [Harjoitukset](https://github.com/vituonni/tivi-prog1-2/tree/master/HTML%20%2B%20CSS)
