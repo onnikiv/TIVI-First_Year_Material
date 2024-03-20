@@ -1,5 +1,5 @@
 ## Metropolian Tieto- ja Viestintätekniikan linjan ohjelmointikurssien repository.
-![alt text](hacker-pc.gif)
+![alt text](metropolia-img.png)
 ### Sisältö
 Python (Ohjelmisto 1 & 2): 
 - Moduulit
