@@ -9,10 +9,10 @@ class Auto:
 
     # Metodi, jolla tulostetaan auton tiedot
     def ominaisuudet(self): 
-        print(f"\nRekisteritunnus: {self.rekisteritunnus}")
-        print(f"Huippunopeus: {self.huippunopeus}")
-        print(f"Nopeus: {self.alkunopeus}")
-        print(f"Kuljettu matka: {self.kuljettu_matka}\n")
+        print(f"Rekisteritunnus: {self.rekisteritunnus}")
+        print(f"Huippunopeus: {self.huippunopeus} km/h")
+        print(f"Nopeus: {self.alkunopeus} km/h")
+        print(f"Kuljettu matka: {self.kuljettu_matka} km\n")
     
     # Metodi, jolla kiihdytetään autoa
     def kiihdytys(self, nopeuden_muutos):

@@ -1,3 +1,5 @@
+import random
+
 class Auto:
     
     # Konstruktori, joka alustaa olion attribuutit // rekisteritunnus, huippunopeus, alkunopeus, kuljettu_matka
@@ -21,17 +23,30 @@ class Auto:
         else:
             self.alkunopeus += nopeuden_muutos # Muuten lisätään alkunopeuteen nopeuden_muutos
 
+    # Metodi, jolla lasketaan aika ja matka
+    def kulje(self, aika):
+        self.kuljettu_matka += self.alkunopeus * aika # Kuljettu matka on yhtä kuin alkunopeus * kulutettu_aika
 
-auto1 = Auto("ABC-123", 142)
+Autot = []
 
-# Kiihdytetään autoa, lopussa päästään huippunopeuteen
-auto1.kiihdytys(30) 
-auto1.kiihdytys(50) 
-auto1.kiihdytys(70)
+for i in range(10): # For looppi joka luo 10 autoa, rekisteritunnus on ABC-1, ABC-2, ABC-3, jne. ja huippunopeus on random välillä 100-200
+    huippunopeus = random.randint(100, 200)
+    rekisteritunnus = f"ABC-{i+1}"
+    auto = Auto(rekisteritunnus, huippunopeus) 
+    Autot.append(auto) # Lisätään auto listaan Autot
 
-# Tulostetaan auton ominaisuudet
-auto1.ominaisuudet()
+kilpailu = True # Kilpailu päällä
 
-# Hätäjarrutus eli hidastetaan autoa 200 km/h, ja tulostetaan auton ominaisuudet
-auto1.kiihdytys(-200)
-auto1.ominaisuudet()
+while kilpailu: # Kun kilpailu päällä, niin jokaiselle autolle annetaan random nopeuden muutos ja kuljetaan 1 tunti
+    for auto in Autot:
+        auto.kiihdytys(random.randint(-10, 15))
+        auto.kulje(1)
+
+        if auto.kuljettu_matka >= 10000: #
+            kilpailu = False
+            break
+
+for auto in Autot:
+    print(f"Auto {i}:")
+    auto.ominaisuudet() # Tulostetaan auton ominaisuudet
+            
