@@ -18,10 +18,13 @@ class Auto:
     
     # Metodi, jolla kiihdytetään autoa
     def kiihdytys(self, nopeuden_muutos):
-        if self.alkunopeus + nopeuden_muutos > self.huippunopeus: # Jos alkunopeus + nopeuden_muutos on suurempaa kuin huippunopeus niin silloin se on yhtä kuin huippunopeus
+        self.alkunopeus += nopeuden_muutos # Lisätään alkunopeuteen nopeuden_muutos
+        
+        if self.alkunopeus < 0: # jos alkunopeus on pienempi kuin 0, niin silloin nopeus on yhtä kuin 0
+            self.alkunopeus = 0 
+        
+        if self.alkunopeus > self.huippunopeus: # Jos alkunopeus on suurempi kuin huippunopeus, niin silloin nopeus on yhtä kuin huippunopeus
             self.alkunopeus = self.huippunopeus
-        else:
-            self.alkunopeus += nopeuden_muutos # Muuten lisätään alkunopeuteen nopeuden_muutos
 
     # Metodi, jolla lasketaan kuljettumatka
     def kulje(self, aika):
