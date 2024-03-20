@@ -1,9 +1,8 @@
-## Metropolian Tieto- ja Viestintätekniikan linjan ohjelmointikurssien repository.
-![alt text](image.png)
+
 ## Sisältö
-Tämä repositorio sisältää ohjelmointikursseilla tehtyjä tehtäviä.
+Tämä repositorio sisältää Metropolia Tieto- ja Viestintätekniikan ohjelmointikurssien tehtyjä tehtäviä, ja harjoituksia.
 ### Python (Ohjelmisto 1 & 2): 
-Moduulitehtävät Python_ohjelmistoteema repositoriosta.
+Python_ohjelmistoteema repositorion moduulitehtävät:
 - [Moduulit](https://github.com/vituonni/tivi-prog1-2/tree/master/Python)  (1-13)
 
 ### HTML + CSS (Ohjelmisto 2):
