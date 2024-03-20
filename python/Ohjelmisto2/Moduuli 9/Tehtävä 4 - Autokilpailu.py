@@ -33,7 +33,6 @@ class Auto:
 Autot = []
 
 for i in range(10): # For looppi joka luo 10 autoa, rekisteritunnus on ABC-1, ABC-2, ABC-3, jne. ja huippunopeus on random välillä 100-200
-    auton_numero = f"Auto-{i+1}"
     huippunopeus = random.randint(100, 200)
     rekisteritunnus = f"ABC-{i+1}"
     auto = Auto(rekisteritunnus, huippunopeus) 
@@ -53,6 +52,6 @@ while kilpailu: # Kun kilpailu päällä, niin jokaiselle autolle annetaan rando
 auton_numero = 1
 
 for auto in Autot:
-    print(f"Auto: {auton_numero}")
+    print(f"Auto ({auton_numero})")
     auto.ominaisuudet()
     auton_numero += 1
