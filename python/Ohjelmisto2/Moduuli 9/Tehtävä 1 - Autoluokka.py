@@ -1,16 +1,17 @@
 class Auto:
     
-    def __init__(self, rekisteritunnus, huippunopeus, nopeus=0, kuljettu_matka=0):
+    # Konstruktori, joka alustaa olion attribuutit // rekisteritunnus, huippunopeus, alkunopeus, kuljettu_matka
+    def __init__(self, rekisteritunnus, huippunopeus, alkunopeus=0, kuljettu_matka=0):
         self.rekisteritunnus = rekisteritunnus
         self.huippunopeus = huippunopeus
-        self.nopeus_atm = nopeus
-        self.kuljettu_matka = kuljettu_matka
+        self.alkunopeus = alkunopeus    # = 0
+        self.kuljettu_matka = kuljettu_matka    # = 0
 
-
-    def ominaisuudet(self):
+    # Metodi, jolla tulostetaan auton tiedot
+    def ominaisuudet(self): 
         print(f"\nRekisteritunnus: {self.rekisteritunnus}")
         print(f"Huippunopeus: {self.huippunopeus}")
-        print(f"Nopeus: {self.nopeus_atm}")
+        print(f"Nopeus: {self.alkunopeus}")
         print(f"Kuljettu matka: {self.kuljettu_matka}\n")
     
 
