@@ -52,6 +52,7 @@ while kilpailu: # Kun kilpailu päällä, niin jokaiselle autolle annetaan rando
 auton_numero = 1
 
 for auto in Autot:
+    print(f"-"*25)
     print(f"Auto ({auton_numero})")
     auto.ominaisuudet()
     auton_numero += 1
