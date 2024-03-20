@@ -23,9 +23,9 @@ class Auto:
         else:
             self.alkunopeus += nopeuden_muutos # Muuten lisätään alkunopeuteen nopeuden_muutos
 
-    # Metodi, jolla lasketaan aika ja matka
+    # Metodi, jolla lasketaan kuljettumatka
     def kulje(self, aika):
-        self.kuljettu_matka += self.alkunopeus * aika # Kuljettu matka on yhtä kuin alkunopeus * kulutettu_aika
+        self.kuljettu_matka += self.alkunopeus * aika
 
 Autot = []
 
@@ -34,9 +34,9 @@ for i in range(10): # For looppi joka luo 10 autoa, rekisteritunnus on ABC-1, AB
     huippunopeus = random.randint(100, 200)
     rekisteritunnus = f"ABC-{i+1}"
     auto = Auto(rekisteritunnus, huippunopeus) 
-    Autot.append(auto) # Lisätään auto listaan Autot
+    Autot.append(auto)
 
-kilpailu = True # Kilpailu päällä
+kilpailu = True
 
 while kilpailu: # Kun kilpailu päällä, niin jokaiselle autolle annetaan random nopeus väliltä -10 ja 15 ja kuljetaan 1 tunti
     for auto in Autot:
@@ -47,9 +47,9 @@ while kilpailu: # Kun kilpailu päällä, niin jokaiselle autolle annetaan rando
             kilpailu = False
             break
 
-auton_numero = 1 # Auton numero alkaa 1
+auton_numero = 1
 
-for auto in Autot: # Tulostetaan jokaisen auton tiedot
+for auto in Autot:
     print(f"Auto: {auton_numero}")
-    auto.ominaisuudet() # Kutsutaan ominaisuudet metodia
+    auto.ominaisuudet()
     auton_numero += 1
