@@ -8,7 +8,10 @@ class Auto:
 
 
     def ominaisuudet(self):
-        print(f"\nRekisteritunnus: {self.rekisteritunnus}\nHuippunopeus: {self.huippunopeus}\nNopeus: {self.nopeus_atm}\nKuljettu matka: {self.kuljettu_matka}\n")
+        print(f"\nRekisteritunnus: {self.rekisteritunnus}")
+        print(f"Huippunopeus: {self.huippunopeus}")
+        print(f"Nopeus: {self.nopeus_atm}")
+        print(f"Kuljettu matka: {self.kuljettu_matka}\n")
     
 
 auto1 = Auto("ABC-123", 142)
