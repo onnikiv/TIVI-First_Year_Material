@@ -6,8 +6,7 @@ class Ostoslista:
 
 lista1 = Ostoslista("maito", "leipä", "juusto")
 print(lista1.lista)
-'''
-'''
+
 # ----------------------------------------------------------------
 class School:
     def __init__(self, name):
@@ -67,8 +66,6 @@ print (f"\n'{library2.name}' sisältää kirjat:")
 for book in library2.books:
     print(book.title)
 
-'''
-
 
 class Student:
     Student_list = []
@@ -114,4 +111,70 @@ for student in course1.students:
 print(f"\n'{course2.name}' kurssilla opiskelee:")
 for student in course2.students:
     print(student.name)
+
+
+
+class Koira:
+    def __init__(self, nimi, syntymävuosi, haukahdus="Vuh-vuh"):
+        self.nimi = nimi
+        self.syntymävuosi = syntymävuosi
+        self.haukahdus = haukahdus
+
+    def hauku(self, kerrat):
+        for i in range(kerrat):
+            print(self.nimi + " haukkuu: " + self.haukahdus)
+        return
+
+class Hoitola:
+    def __init__(self):
+        self.koirat = []
+
+    def koira_sisään(self, koira):
+        self.koirat.append(koira)
+        print(koira.nimi + " kirjattu sisään")
+        return
+
+    def koira_ulos(self, koira):
+        self.koirat.remove(koira)
+        print(koira.nimi + " kirjattu ulos")
+        return
+
+    def tervehdi_koiria(self):
+        for koira in self.koirat:
+            koira.hauku(1)
+
+# Pääohjelma
+
+koira1 = Koira("Muro", 2018)
+koira2 = Koira("Rekku", 2022, "Viu viu viu")
+
+hoitola = Hoitola()
+
+hoitola.koira_sisään(koira1)
+hoitola.koira_sisään(koira2)
+hoitola.tervehdi_koiria()
+
+hoitola.koira_ulos(koira1)
+hoitola.tervehdi_koiria()
+
+'''
+
+class Animal:
+    def __init__(self, species):
+        self.species = species
+
+    def speak(self): # sama metodi eri eläimillä
+        print("Animal is making a sound")
+
+class Dog(Animal):
+    def __init__ (self, species, breed):
+        self.breed = breed
+        super().__init__(species)
+
+    def speak(self): # sama metodi eri eläimillä uudestaan, periytyy
+        print("Dog is barking")
+
+dog1 = Dog("Dog", "Labrador")
+dog1.speak()
+
 
