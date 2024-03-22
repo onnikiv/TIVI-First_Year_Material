@@ -157,7 +157,7 @@ hoitola.tervehdi_koiria()
 hoitola.koira_ulos(koira1)
 hoitola.tervehdi_koiria()
 
-'''
+
 
 class Animal:
     def __init__(self, species):
@@ -178,3 +178,26 @@ dog1 = Dog("Dog", "Labrador")
 dog1.speak()
 
 
+'''
+
+class Henkilö:
+    def __init__(self, nimi, ikä):
+        self.nimi = nimi
+        self.ikä = ikä
+
+    def esittely(self):
+        print(f"\nHei, olen {self.nimi} ja olen {self.ikä} vuotta vanha.\n")
+
+class Opiskelija(Henkilö):
+    def __init__(self, nimi, ikä, opiskelijanumero):
+        self.opiskelijanumero = opiskelijanumero
+        super().__init__(nimi, ikä)
+
+    def esittely(self):
+        super().esittely()
+        print(f"My student number is '{self.opiskelijanumero}'\n")
+
+opiskelija1 = Opiskelija("Rene", 7, 123456789)
+
+opiskelija1.esittely()
+ 
