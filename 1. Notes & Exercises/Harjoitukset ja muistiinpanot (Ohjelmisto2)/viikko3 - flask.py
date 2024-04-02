@@ -29,11 +29,25 @@ def calculate(type):
                 {'error': 'Unknown calculation type.', 'status': 400}
             )
             return Response(response=response_body, status=400, mimetype='application/json')
+        # oletuksena dictionary muutetaan http-vastaukseen automaattisesti jsoniksi
+        # statuksella 200 (OK)
         return {'result': result, "numbers": [num1, num2]}
     
     except:
+        # TODO: muuta virhekoodi myös http-vastauksen otsikkotiedoissa
         return {'error': 'Invalid parameters.', 'status': 400}
 
+
+@app.errorhandler(404)
+def page_not_found(error):
+    # print(error)
+    response_body = json.dumps(
+                {'error': error.name,'description': error.description, 'status': error.code}
+            )
+    return Response(
+        response=response_body,
+        status=404,
+        mimetype='application/json')
 
 
 if __name__ == '__main__':
