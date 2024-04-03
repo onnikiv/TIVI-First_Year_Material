@@ -146,14 +146,15 @@ body {
     display: grid;
     grid-template-areas:
         'product product product';
-    width: 60%;
-    padding: 1em;
+    width: 100%;
+    padding: 0em;
     margin: 0em;
+    
 }
 .product {
     background-color: rgba(58, 58, 58, 0.9);
     margin: 20px;
-    padding: 25px;
+    padding: 5%;
     float: right;
     border: outset 1px rgba(255, 255, 255, 0.356);
     border-radius: 10px;
