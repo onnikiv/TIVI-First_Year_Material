@@ -1,7 +1,4 @@
-# Moduuli 12 esimerkit
-
 import requests
-
 
 def chuck_norris_vitsi():
     url = 'https://api.chucknorris.io/jokes/random'
