@@ -1,6 +1,5 @@
 import json
 import requests
-
 APIKEY = ""
 
 def weather():
