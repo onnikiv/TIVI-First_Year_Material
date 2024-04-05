@@ -33,7 +33,7 @@ class Talo:
         '''
         self.hissit = lista, missä metodit ja kuinka monta hissiä talossa on
         '''
-        self.hissit = [Hissi(talonalinkerros, talonylinkerros) for _ in range(hissienmaara)] 
+        self.hissit = [Hissi(talonalinkerros, talonylinkerros) for i in range(hissienmaara)] 
 
     def aja_hissia(self, hissinumero, kohdekerros):
         print("_"*30)

@@ -2,21 +2,18 @@ import random
 
 class Auto:
     
-    # Konstruktori, joka alustaa olion attribuutit // rekisteritunnus, huippunopeus, alkunopeus, kuljettu_matka
     def __init__(self, rekisteritunnus, huippunopeus, alkunopeus=0, kuljettu_matka=0):
         self.rekisteri = rekisteritunnus  
         self.huippunopeus = huippunopeus
         self.nopeus = alkunopeus    
         self.matka = kuljettu_matka
 
-    # Metodi, jolla tulostetaan auton tiedot
     def ominaisuudet(self): 
         print(f"Rekisteritunnus: {self.rekisteri}")
         print(f"Huippunopeus: {self.huippunopeus} km/h")
         print(f"Nopeus: {self.nopeus} km/h") 
         print(f"Kuljettu matka: {self.matka} km\n")
     
-    # Metodi, jolla kiihdytetään autoa
     def kiihdytys(self, nopeuden_muutos):
         self.nopeus += nopeuden_muutos 
         
@@ -26,9 +23,9 @@ class Auto:
         if self.nopeus > self.huippunopeus: 
             self.nopeus = self.huippunopeus
 
-    # Metodi, jolla lasketaan kuljettumatka
     def kulje(self, aika):
         self.matka += self.nopeus * aika  
+
 
 class Kilpailu:
     def __init__(self, nimi, pituus, autot):
