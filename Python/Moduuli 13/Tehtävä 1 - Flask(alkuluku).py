@@ -3,6 +3,7 @@ import json
 
 app = Flask(__name__)
 
+# http://127.0.0.1:3000/alkuluku/
 
 @app.route(f'/alkuluku/<int:luku>', methods=['GET'])
 def alkuluku(luku):
