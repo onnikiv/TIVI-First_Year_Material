@@ -13,33 +13,28 @@ connection = mysql.connector.connect(
 
 app = Flask(__name__)
 
-# 127.0.0.1:3000/kenttä/EFHK
-@app.route(f'/kenttä/<string:ICAO>', methods=['GET'])
+@app.route('/kenttä/<string:ICAO>', methods=['GET'])
 def kenttä_haku(ICAO):
     cursor = connection.cursor()
     cursor.execute(f"SELECT name, municipality FROM airport WHERE ident='{ICAO.upper()}'")
-    result = cursor.fetchall()
-    Name = result[0][1]
-    Municipality = result[0][0]
-
+    result = cursor.fetchone()
+    
     if result:
-        return {'ICAO': ICAO.upper(),'Name': Name, 'Municipality': Municipality,}
+        icao, name, municipality = ICAO.upper(), result[0], result[1]
+        response_data = {"ICAO": icao, "Name": name, "Municipality": municipality}
+        return json.dumps(response_data)
     else:
-        return {'error': 'Airport not found.', 'status': 404}
-
+        response_data = {'error': 'Airport not found.', 'status': 404}
+        return json.dumps(response_data)
 
 @app.errorhandler(404)
 def page_not_found(error):
-    response_body = json.dumps(
-        {'error': error.name, 'description': error.description, 'status': error.code}
-    )
+    response_data = {'error': error.name, 'description': error.description, 'status': error.code}
     return Response(
-        response=response_body,
+        response=json.dumps(response_data),
         status=404,
         mimetype='application/json'
     )
 
-
 if __name__ == '__main__':
     app.run(use_reloader=True, host='127.0.0.1', port=3000)
-
