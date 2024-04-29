@@ -1,5 +1,4 @@
 
-'''
 class Ostoslista:
     def __init__(self, lista):
         self.lista = lista
@@ -199,7 +198,7 @@ opiskelija1 = Opiskelija("Rene", 7, 123456789)
 
 opiskelija1.esittely()
  
- '''
+
 
 class Työntekijä:
 
