@@ -12,3 +12,5 @@ Tämä repository sisältää Metropolian tieto- ja viestintätekniikan Ohjelmis
 ### Matematiikka
 - Matematiikkaa numpy- kirjastoa hyödyntäen.
 - [Linkki kansioon](https://github.com/onnikiv/tivi-prog1-2/tree/master/Matematiikka)
+
+#
