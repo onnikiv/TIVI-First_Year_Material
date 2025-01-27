@@ -5,16 +5,17 @@ This repository contains all the assignments, exercises, notes, and homework rel
 ## Software 1
 Basics of Programming
 - Python Modules
-- Notes
+- [Link to Software 1 Project](https://github.com/onnikiv/Software-1-Project)
 
 ## Software 2
-Basics of Object-Oriented Programming
+Basics of Object-Oriented Programming   
 Basics of Web Technologies
 Usage of Open APIs
 - Python Modules
 - Notes
 - HTML-CSS (personal website)
 - JavaScript exercises
+- [Link to Software 2 Project](https://github.com/onnikiv/Software-2-Project)
 
 ## Hardware 1
 Basics of Digital Technology
@@ -22,4 +23,4 @@ Basics of Digital Technology
 
 ## Hardware 2
 Basics of IoT Systems
-- Project Coding 
+- [Link to Hardware 2 Project](https://github.com/onnikiv/Hardware-2-Project)
