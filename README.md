@@ -1,16 +1,25 @@
 
-## Sisältö
-Tämä repository sisältää Metropolian tieto- ja viestintätekniikan Ohjelmisto 1- ja 2 -kursseilla tehtyjä tehtäviä ja harjoituksia.
-### Python (Ohjelmisto 1 & 2): 
-- Moduulitehtävät Python_Ohjelmistoteema repositoriosta [(linkki repositorioon)](https://github.com/vesavvo/Python_Ohjelmistoteema)
-- Linkki omiin tehtäviin [(moduulit 1-13)](https://github.com/onnikiv/tivi-prog1-2/tree/master/Python)
+# Contents
+This repository contains all the assignments, exercises, notes, and homework related to the first-year studies of Information and Communication Technology Engineering degree at Metropolia UAS.
 
-### Harjoitukset
-- Muistiinpanot luennoilta ja omat harjoitukset.
-- [Linkki kansioon](https://github.com/onnikiv/tivi-prog1-2/tree/master/Harjoitukset)
+## Software 1
+Basics of Programming
+- Python Modules
+- Notes
 
-### Matematiikka
-- Matematiikkaa numpy- kirjastoa hyödyntäen.
-- [Linkki kansioon](https://github.com/onnikiv/tivi-prog1-2/tree/master/Matematiikka)
+## Software 2
+Basics of Object-Oriented Programming
+Basics of Web Technologies
+Usage of Open APIs
+- Python Modules
+- Notes
+- HTML-CSS (personal website)
+- JavaScript exercises
 
-#
+## Hardware 1
+Basics of Digital Technology
+- Digital Circuits
+
+## Hardware 2
+Basics of IoT Systems
+- Project Coding 
