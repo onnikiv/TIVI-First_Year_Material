@@ -62,7 +62,7 @@ while True:
 
 ### 1.2 Design and implement a state machine 
 
-![alt text](/images/07_ASM-chart-1.2.png)
+![alt text](images/07_ASM-chart-1.2.png)
 
 ```python
 from machine import Pin

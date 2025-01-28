@@ -4,7 +4,7 @@ Sixth week's assignments
 
 ### 1.1 Sequential circuits and ASM method 
 
-![alt text](/images/06_Sequential-1.1.png)   
+![alt text](images/06_Sequential-1.1.png)   
 #### Since there is (_14_) stateboxes or states, we can calculate how many flip-flops (FF) we need:
 
 __k__ = number of __flip-flops__ and __s__ = number of __states__   
@@ -26,7 +26,7 @@ The system is a __Moore__ state machine, because there are no conditional stateb
 ___
 
 ### 1.2 ASM-chart clock cycle   
-![alt text](/images/06_Sequential-1.2.png)   
+![alt text](images/06_Sequential-1.2.png)   
 #### So if the clock cycle time is (0.5 seconds) and the goal is for the motor to start after 2 seconds:
 
 $\frac{Delay}{\text{Cycle time}} = \frac{2 (s)}{0.5 (s)} = 4$
@@ -37,6 +37,6 @@ ___
 
 ### 1.3 Bank Vault ASM-chart
 
-![alt text](/images/06_Sequential-1.3.png)
+![alt text](images/06_Sequential-1.3.png)
 
 ___
